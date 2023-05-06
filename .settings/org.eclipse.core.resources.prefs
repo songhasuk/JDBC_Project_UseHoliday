@@ -1,2 +1,4 @@
+### 이클립스 종속적인 파일이라 git에서 제외해도 되어보임
+
 eclipse.preferences.version=1
 encoding/<project>=UTF-8
