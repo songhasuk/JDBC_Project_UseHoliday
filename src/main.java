@@ -3,19 +3,19 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-import DAO.UseHoliday;
-import DTO.Emp;
+import dao.UseHoliday;
+import dto.Emp;
 import lombok.Getter;
+import service.UseHolidayService;
 
-public class main {
+public class Main {
 
 	public static void main(String[] args) {
 		
 		//String str = "2023-03-22";
+		UseHolidayService uhs = new UseHolidayService();
 		
-		UseHoliday holiday = new UseHoliday();
-		
-		holiday.loginPrint();
+		uhs.uhp.loginPrint();
 		
 		//[일반 사원 계정]
 		//1003
